@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints*/
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large archives (keep CSV data, ignore zip archives if needed)
+archive*.zip
+
+# Pytest cache
+.pytest_cache/
+
+# Internal documentation and planning files (keep only README.md)
+plan.md
+PROJECT_REPORT.md
+docs/
+
